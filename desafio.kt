@@ -27,7 +27,6 @@ fun main() {
     formacao1.matricular(aluno1)
     formacao2.matricular(aluno2)
 
-
     println("${formacao1.inscritos.map { it.nome }}: inscreveu-se em ${formacao1.nome}\n Conteudo ${conteudo1.nome} ")
     println("${formacao2.inscritos.map { it.nome }}: inscreveu-se em ${formacao2.nome}\n Conteudo ${conteudo2.nome} ")
   
